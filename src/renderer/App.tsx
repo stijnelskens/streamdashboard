@@ -1,14 +1,16 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import SwitchTest from 'components/Switch';
 import icon from '../../assets/icon.svg';
 import './App.css';
 
 const Hello = () => {
   return (
     <div>
+      <SwitchTest />
       <div className="Hello">
         <img width="200px" alt="icon" src={icon} />
       </div>
-      <h1>electron-react-boilerplate</h1>
+      <h1>electron-react-boilerplate chupapii munyanyoo</h1>
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"
